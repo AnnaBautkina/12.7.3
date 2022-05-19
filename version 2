@@ -1,0 +1,5 @@
+#как я вижу, что надо сделать
+per_cent = {'ТКБ': 5.6, 'СКБ': 5.9, 'ВТБ': 4.28, 'СБЕР': 4.0}
+money = float(input("Введите сумму:"))
+bank, deposit = max(per_cent), round(max(per_cent.values())*money/100
+print("Максимальная сумма, которую можно заработать", bank, deposit)
